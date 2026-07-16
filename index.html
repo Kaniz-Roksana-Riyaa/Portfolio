@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="min-h-full bg-white text-[#171717] antialiased">
     <!-- Navbar component begins -->
     <header class="fixed top-4 left-0 right-0 z-50 flex justify-center">
       <nav
@@ -57,6 +57,75 @@
       </nav>
     </header>
     <!-- Navbar component ends -->
+
+    <!-- Hero component begins -->
+      <section
+        id="home"
+        class="flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-br from-[#d0ded8]/60 via-white to-[#85aa9b]/20 px-0 pb-12 pt-20 shadow-sm md:pb-0"
+      >
+        <div
+          class="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between gap-12 px-6 md:min-h-[calc(100vh-5rem)] lg:flex-row lg:gap-20 lg:px-8"
+        >
+          <div
+            class="w-full text-center md:w-1/2 md:text-left"
+          >
+            <span
+              class="mb-3 block text-sm font-semibold uppercase tracking-[0.2em] text-[#85aa9b]"
+            >
+              Welcome to my portfolio
+            </span>
+            <h1
+              class="mb-3 text-3xl font-bold leading-[1.1] tracking-tight text-[#18392b] sm:text-4xl lg:text-5xl"
+            >
+              Kaniz Roksana Riya
+            </h1>
+            <h2 class="mb-6 text-lg font-medium text-[#588b76] sm:text-xl">
+              3rd Year Software Engineering Student
+            </h2>
+            <p class="mx-auto mb-8 max-w-md text-base leading-relaxed text-gray-600 md:mx-0">
+              Currently studying at Daffodil International University. I am
+              passionate about building clean, efficient, and user-friendly
+              software systems. Always eager to learn new technologies.
+            </p>
+            <div class="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
+              <a
+                href="#projects"
+                class="group flex items-center justify-center gap-2 rounded-full bg-[#18392b] px-8 py-3 font-medium text-white shadow-lg shadow-[#18392b]/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#588b76] hover:shadow-xl"
+              >
+                View My Work
+                <i
+                  data-lucide="arrow-right"
+                  class="h-[18px] w-[18px] transition-transform duration-300 group-hover:translate-x-1"
+                ></i>
+              </a>
+              <a
+                href="#home"
+                class="flex items-center justify-center gap-2 rounded-full border-2 border-[#85aa9b] px-8 py-3 font-medium text-[#18392b] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#d0ded8]/30"
+              >
+                <i data-lucide="file-text" class="h-[18px] w-[18px]"></i>
+                Resume
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="flex w-full justify-center md:w-1/2 md:justify-end"
+          >
+            <div class="relative h-64 w-64 sm:h-80 sm:w-80 lg:h-96 lg:w-96">
+              <div
+                class="absolute inset-0 rounded-full bg-[#d0ded8] opacity-50 blur-3xl"
+              ></div>
+              <div
+                class="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full border-4 border-white bg-[#f4f7f6] shadow-2xl shadow-[#85aa9b]/30"
+              >
+                <!-- image here -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero component ends -->
      
       <!-- About component begins -->
       <section id="about" class="relative overflow-hidden bg-[#f4f7f6] py-24">
@@ -140,5 +209,6 @@
         </div>
       </section>
       <!-- About component ends -->
+
 </body>
 </html>
