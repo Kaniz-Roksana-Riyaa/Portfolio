@@ -9,8 +9,136 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <!-- Navbar component begins -->
+    <header class="fixed top-4 left-0 right-0 z-50 flex justify-center">
+      <nav
+        class="relative w-[90%] md:w-[76%] lg:w-[70%] rounded-full border border-white/40 bg-[#d0ded8]/30 shadow-sm backdrop-blur-xl"
+        aria-label="Primary navigation"
+      >
+        <div class="px-4 sm:px-6">
+          <div class="flex h-12 items-center justify-between">
+            <a
+              href="#home"
+              class="text-lg font-bold tracking-wider text-[#18392b]"
+              aria-label="Go to home"
+            >
+              Riya
+            </a>
 
+            <div class="flex space-x-2 lg:space-x-4">
+              <a href="#home" class="nav-link">
+                <i data-lucide="home" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">Home</span>
+              </a>
+              <a href="#about" class="nav-link">
+                <i data-lucide="user" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">About</span>
+              </a>
+              <a href="#education" class="nav-link">
+                <i data-lucide="graduation-cap" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">Education</span>
+              </a>
+              <a href="#skills" class="nav-link">
+                <i data-lucide="code" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">Skills</span>
+              </a>
+              <a href="#projects" class="nav-link">
+                <i data-lucide="folder-git-2" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">Projects</span>
+              </a>
+              <a href="#contact" class="nav-link">
+                <i data-lucide="mail" class="h-3.5 w-3.5"></i>
+                <span class="hidden lg:block">Contact</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar component ends -->
+     
+      <!-- About component begins -->
+      <section id="about" class="relative overflow-hidden bg-[#f4f7f6] py-24">
+        <div
+          class="absolute right-0 top-0 -z-10 h-96 w-96 translate-x-1/3 -translate-y-1/3 rounded-full bg-[#d0ded8] opacity-40 blur-[100px]"
+        ></div>
+        <div class="mx-auto w-[90%] max-w-7xl">
+          <div class="flex flex-col items-center gap-16 lg:flex-row">
+            <div class="w-full lg:w-1/2">
+              <h2 class="mb-2 text-sm font-bold uppercase tracking-widest text-[#85aa9b]">
+                Discover
+              </h2>
+              <h3 class="mb-6 text-3xl font-extrabold text-[#18392b] md:text-4xl">
+                About Me
+              </h3>
+              <div class="space-y-4 text-base leading-relaxed text-gray-600 md:text-lg">
+                <p>
+                  Hello! I am Kaniz Roksana Riya, a dedicated and
+                  detail-oriented Software Engineering student currently in my
+                  3rd year at Daffodil International University.
+                </p>
+                <p>
+                  My journey in tech is driven by a strong desire to build
+                  meaningful, efficient, and user-centric applications. Whether
+                  it is designing a clean frontend interface or structuring
+                  solid system logic, I love turning complex problems into
+                  elegant digital solutions.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6 lg:w-1/2">
+              <article class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="graduation-cap" class="h-6 w-6"></i>
+                </div>
+                <h4 class="mb-2 text-lg font-bold text-[#18392b]">Education</h4>
+                <p class="text-sm text-gray-600">
+                  B.Sc. in Software Engineering at DIU, maintaining a strong
+                  academic record.
+                </p>
+              </article>
+              <article class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="code-2" class="h-6 w-6"></i>
+                </div>
+                <h4 class="mb-2 text-lg font-bold text-[#18392b]">Development</h4>
+                <p class="text-sm text-gray-600">
+                  Passionate about full-stack development and modern JavaScript
+                  ecosystems.
+                </p>
+              </article>
+              <article class="info-card">
+                <div class="info-icon">
+                  <i data-lucide="lightbulb" class="h-6 w-6"></i>
+                </div>
+                <h4 class="mb-2 text-lg font-bold text-[#18392b]">
+                  Problem Solving
+                </h4>
+                <p class="text-sm text-gray-600">
+                  Analytical thinker who enjoys tackling challenges and
+                  optimizing system logic.
+                </p>
+              </article>
+              <article
+                class="rounded-2xl border border-[#85aa9b] bg-[#588b76] p-6 shadow-lg transition-transform duration-300 hover:-translate-y-1"
+              >
+                <div
+                  class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-white/20 text-white"
+                >
+                  <i data-lucide="laptop" class="h-6 w-6"></i>
+                </div>
+                <h4 class="mb-2 text-lg font-bold text-white">Always Learning</h4>
+                <p class="text-sm text-[#d0ded8]">
+                  Continuously learning &amp; building projects to learn new tools
+                  and industry best practices...
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About component ends -->
 </body>
 </html>
